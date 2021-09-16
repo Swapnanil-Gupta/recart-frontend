@@ -3,7 +3,7 @@ import LocalStorageService from "../services/local-storage";
 import AuthService from "../services/auth";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://recart-backend.herokuapp.com/api/",
 });
 
 axiosInstance.interceptors.request.use(
